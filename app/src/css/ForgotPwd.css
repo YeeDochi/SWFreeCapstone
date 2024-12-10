@@ -1,0 +1,45 @@
+/* src/components/Text.css */
+.FwdBox {
+    padding: 50px;
+    margin: 60px;
+    font-weight: bold; 
+    width: 25%;
+    background-color: #fff;
+    border-radius: 8px;
+    flex-direction: column; /* 자식 요소를 수직으로 배치 */
+    justify-content: center; 
+    display: flex;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1), -2px -2px 5px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+  }
+.Buttonbox {
+
+  margin-top: 30px;
+  width: 100%;
+  flex-direction: column; /* 자식 요소를 수직으로 배치 */
+  justify-content: center; /* 수직 중앙 정렬 */
+  align-items: center; /* 가로 방향 중앙 정렬 */
+  display: flex;
+  gap: 20px;
+}
+
+.FwdBox button {
+  width: 90%;
+  padding: 8px;
+  
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+  
+  .FwdBox input {
+    width: 90%;
+    padding: 8px;
+    border-radius: 8px;
+  }
+  button:hover {
+    background-color: #555;
+  }
+  

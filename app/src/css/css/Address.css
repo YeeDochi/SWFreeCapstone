@@ -1,0 +1,83 @@
+/* src/components/Text.css */
+.address_main {
+    padding-top: 100px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: center;  
+    width: auto;
+    display: flex;
+  }
+
+  
+  .textbobo{
+    width: 60%;
+    text-align: left;
+    
+  }
+  
+  .address_context {
+    display: flex;
+    font-weight: bold;
+    width: 60%;
+    padding: 30px;
+    font-size: 15px;
+    flex-direction: row;
+    justify-content: center; /* 양쪽 정렬 */
+    gap: 20px;
+}
+
+.group { 
+  width: 30%;
+    border-radius: 10px;
+    background-color: #edf2fd;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px 30px;
+}
+
+.group_people {
+  width: 70%;
+    border-radius: 10px;
+    padding: 60px 30px;
+    background-color: #edf2fd;
+    flex-direction: column;
+    gap: 10px;
+}
+
+    .main-box button {
+      width: 100px;
+      padding: 8px;
+      background-color: #6088d9;
+      font-weight: 500; 
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #555;
+    }
+
+
+    .styled-table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed; /* 열 너비 고정 */
+  }
+  
+  .styled-table th, .styled-table td {
+      border: 1px solid gray;
+      padding: 8px;
+      text-align: left;
+      height: 40px; /* 행 높이 고정 */
+  }
+  
+  tbody {
+      max-height: 200px; /* 원하는 높이 설정 */
+      overflow-y: scroll; /* 스크롤 추가 */
+      display: table-row-group; /* 기본 테이블 레이아웃 유지 */
+  }
+  
+  

@@ -1,0 +1,55 @@
+/* src/components/Text.css */
+.L_Box{
+  justify-content: center; 
+  display: flex;
+  background-color: #edf2fd;
+
+}
+.LoginBox {
+    padding: 50px;
+    margin: 130px 0px 130px 0px;
+    font-weight: bold; 
+    width: 25%;
+    background-color: #fff;
+    border-radius: 3px;
+    flex-direction: column; /* 자식 요소를 수직으로 배치 */
+    justify-content: center; 
+    display: flex;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1), -2px -2px 5px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+  }
+
+.L_Buttonbox {
+  margin-top: 30px;
+  flex-direction: column; /* 자식 요소를 수직으로 배치 */
+  justify-content: center; /* 수직 중앙 정렬 */
+  align-items: center; /* 가로 방향 중앙 정렬 */
+  display: flex;
+  gap: 20px;
+}
+
+
+#l_login, #l_join {
+  margin-top: 20px;
+  height: 30px;
+  width: 90%;
+  padding: 3px;
+  background-color: #6e9dfb;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+  
+  .LoginBox input {
+    width: 90%;
+    padding: 8px;
+    border-radius: 3px;
+  }
+
+  button:hover {
+    background-color: #555;
+  }
+  

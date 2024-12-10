@@ -1,0 +1,36 @@
+
+@use './Common' as *; // 공통 SCSS 가져오기
+
+.LMainBox{
+  justify-content: center; 
+  display: flex;
+  background-color: #edf2fd;
+}
+
+.LoginBox {
+  padding: 50px;
+  margin: 60px;
+  font-weight: var(--font-weight-bold);
+  background-color: #fff;
+  @include flex-column(25%,20px); // 공통 스타일 재사용
+}
+
+.Buttonbox {
+  margin-top: 30px;
+  width: 100%;
+  @include flex-column(20px); // 공통 스타일 재사용
+}
+
+
+button {
+  @include button-style();
+}
+
+input {
+  @include input();
+}
+
+
+button:hover {
+  background-color: #555;
+}

@@ -1,0 +1,65 @@
+/* src/components/Text.css */
+.Box{
+  justify-content: center; 
+  display: flex;
+  background-color: #edf2fd;
+}
+.JoinBox {
+  font-weight: bold; 
+    padding:50px;
+    color: #1c2b48;
+    margin: 60px;
+    width: 30%;
+    background-color: #fff;
+    border-radius: 8px;
+    flex-direction: column; /* 자식 요소를 수직으로 배치 */
+    justify-content: center; 
+    display: flex;
+    gap: 20px;
+    
+  }
+  
+  .JoinBox input {
+    width: 80%;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+#JoinId{
+  width: 40%;
+}
+.JoinBox .JoinButton{
+    width: 100%;
+    gap: 30px;
+    flex-direction: row; 
+    justify-content: center; 
+    display: flex;
+    align-items: center; 
+}
+/* Join.css */
+.error-message {
+  color: red;
+  font-size: 12px;  /* 글씨 크기 조정 */
+  margin-top: 5px;  /* 위쪽 여백 추가 */
+}
+
+
+  button {
+    width: 100px;
+    padding: 8px;
+    background-color: #6e9dfb;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .Idp{
+    display: flex;
+    gap: 30px;
+    align-items: center; 
+  }
+  button:hover {
+    background-color: #555;
+  }
+  
+  

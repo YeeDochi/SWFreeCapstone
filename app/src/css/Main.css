@@ -1,0 +1,54 @@
+.MainBoard {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100%;
+    
+    min-height: 1000px;
+    margin: 0px auto;
+   
+    background-color: #edf2fd;
+
+    text-align: center;
+  }
+  
+  /* 라벨 스타일 */
+  .MainBoard label {
+    font-size: 3rem;
+    color: #000000;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  .MainButton {
+    margin-top: 70px;
+  }
+  .MainContents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  
+  /* 시작하기 버튼 스타일 */
+  #start {
+    width: 300px;
+    height: 50px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #497ce9; /* 버튼의 녹색 배경 */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* 버튼 hover 효과 */
+  #start:hover {
+    background-color: #1854d3; /* 조금 더 어두운 녹색 */
+  }
+  

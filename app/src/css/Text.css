@@ -1,0 +1,187 @@
+/* src/components/Text.css */
+.main-box {
+  padding-top: 100px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  border-top: 5px solid #dee2e6;
+  align-items: center;  /*수직 중앙 정렬 */
+  width: auto;
+  display: flex;
+  background-color: #fbfbfc;
+  padding-bottom: 100px;
+}
+
+.textbobo{
+  width: 60%;
+  text-align: left;
+  
+}
+.main-text {
+  font-weight: bold;
+  width: 60%; /* width 계산 수정 */
+  padding: 30px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* 수평 중앙 정렬 */
+  gap: 20px;
+}
+
+.mtext-box { 
+  flex: 6; /* 6.5:3.5 비율 중 6.5에 해당하는 부분 */
+  border-radius: 5px;
+  background-color: #FFF;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1), -2px -2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 60px 30px 60px 30px;
+  
+}
+
+.recipient-section {
+  flex: 4; /* 6.5:3.5 비율 중 3.5에 해당하는 부분 */
+  border-radius: 5px;
+  padding: 60px 30px 60px 30px;
+  background-color: #f4f4f6;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1), -2px -2px 5px rgba(0, 0, 0, 0.1);
+  gap: 10px;
+  overflow-y: auto; /* 수직 스크롤 활성화 */
+  overflow-x: hidden; /* 가로 스크롤 비활성화 */
+  max-height: 700px;
+  
+}
+.main-box  h1 {
+    text-align: left !important; 
+    color: #333; /* h1의 색상 */
+    margin: 0; /* 기본 여백 제거 */
+}
+
+.message-section {
+ 
+    display: flex;
+    height: 50%;
+    flex-direction: row;
+    gap: 20px;
+    width: 95%;
+    padding: 10px 10px 10px 10px;
+    
+  }
+   .address-section, .button-section, .button-section3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+
+  .img-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+
+  .button-section2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    
+  }
+
+  
+  
+  .main-text  textarea {
+    width: 80%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    resize: none;
+    background-color: #fff;
+  }
+  
+  .main-box button {
+    width: 100px;
+    padding: 8px;
+    background-color: #e6e9ed;
+    font-weight: 500; 
+    color: #364357 ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .button-section3 button{
+    width: 180px;
+  }
+  
+  button:hover  .recipient-button:hover{
+    background-color: #d7e0eb;
+  }
+  #add{
+    background-color: #364357;
+    color: #fff ;
+   
+  }
+
+  .add-value {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  input {
+    flex: 7;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  
+  .recipient-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .recipient-header h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .recipient-button {
+    padding: 8px 15px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  
+  .recipient-list {
+    margin-top: 10px;
+  }
+  
+  .recipient-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .recipient-item span {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  

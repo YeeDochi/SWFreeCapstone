@@ -1,0 +1,28 @@
+@use './Common' as *; 
+
+.main-box {
+  padding-top: 100px;
+  @include flex-column(); // 공통 스타일 재사용
+  text-align: left;
+  width: auto;
+}
+
+.text-box{
+  padding: 60px 30px;
+  @include flex-column(20px); // 기본 gap 20px 재사용
+}
+
+.text-box2 {
+  @include flex-column(10px); // gap 값을 10px로 재정의
+}
+
+.main-text {
+  font-weight: var(--font-weight-bold);
+  padding: 30px;
+  font-size: 15px;
+  @include flex-row(20px); // 공통 flex-row 스타일 사용
+}
+
+button {
+  @include button-style();
+}

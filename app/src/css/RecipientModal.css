@@ -1,0 +1,67 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  position: relative; /* 닫기 버튼의 위치 기준을 설정 */
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 500px;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.contacts-scrollable,
+.recipients-scrollable {
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contacts-actions button {
+  margin-right: 5px;
+}
+
+.close-button {
+  position: absolute; /* 부모인 .modal-content 기준으로 배치 */
+  top: 10px; /* 상단 여백 */
+  right: 10px; /* 오른쪽 여백 */
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #333;
+  font-weight: bold;
+}
+
+
+
+.modal-overlay button {
+  margin-right: 20px;
+}
+
+.recipient-button {
+  margin-top: 20px;
+}
+
+.recipients-section {
+  margin-top: 20px;
+}
+
+.recipients-scrollable {
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}

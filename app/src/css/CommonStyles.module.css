@@ -1,0 +1,25 @@
+/* 공통 스타일 */
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .button {
+    width: 90%;
+    padding: 8px;
+    background-color: #1c2b48;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  input {
+    width: 80%;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }

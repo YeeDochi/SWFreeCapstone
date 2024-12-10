@@ -1,0 +1,41 @@
+/* src/common/CommonStyles.css */
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    width: 90%;
+    padding: 8px;
+    color: #fff;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+  }
+  
+  .button-primary {
+    background-color: var(--primary-color); /* 기본 색상 */
+  }
+  
+  .button-secondary {
+    background-color: var(--secondary-color); /* 선택적인 색상 */
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .border-radius {
+    border-radius: var(--border-radius);
+  }
+  

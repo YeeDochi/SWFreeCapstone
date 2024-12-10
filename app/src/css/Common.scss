@@ -1,0 +1,68 @@
+/* 변수 정의 (선택 사항) */
+
+$button-radius: 8px;
+$primary-color: #1c2b48;
+$secondary-color: #edf2fd;
+$font-weight-bold: bold;
+$border-radius: 8px;
+$button-bg-color: #6088d9;
+$button-text-color: #fff;
+$width:100;
+
+
+/* 공통 스타일 */
+@mixin flex-column($widht: 100,$gap: 20px) {
+  width: $width;
+  border-radius: $border-radius;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: $gap;
+  
+}
+
+@mixin flex-row($gap: 20px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: $gap;
+  }
+
+@mixin button-style($bg-color: $button-bg-color, $text-color: #fff) {
+  width: 90%;
+  padding: 8px;
+  background-color: $bg-color;
+  color: $text-color;
+  border: none;
+  border-radius: $button-radius;
+  cursor: pointer;
+}
+
+@mixin input($width:90%) {
+  width: $width;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+
+/* 클래스 적용 */
+.flex-column {
+  @include flex-column(); /* 기본 gap 값 사용 */
+}
+.flex-row {
+    @include flex-row(); /* 기본 gap 값 사용 */
+  }
+
+  .input{
+    @include input();
+  }
+
+.button {
+  @include button-style(); /* 기본 색상과 텍스트 색상 사용 */
+}

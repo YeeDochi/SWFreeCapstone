@@ -1,0 +1,39 @@
+@use './Common' as *;  // 공통 SCSS 가져오기
+
+.address_main {
+  padding-top: 100px;
+  @include flex-column(); // 공통 스타일 재사용
+  text-align: left;
+  width: auto;
+}
+
+.group, .group_people {
+  border-radius: var(--border-radius);
+  background-color: var(--secondary-color);
+  @include flex-column(10px); // gap 값 10px
+  padding: 30px;
+}
+
+.group_people {
+  width: 70%;
+  padding: 60px 30px; // 다른 padding 값
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+
+  th, td {
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: left;
+    height: 40px;
+  }
+
+  tbody {
+    max-height: 200px;
+    overflow-y: scroll;
+    display: table-row-group;
+  }
+}
